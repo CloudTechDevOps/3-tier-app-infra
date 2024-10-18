@@ -5,5 +5,6 @@ sudo apt-get install -y nodejs -y
 sudo apt update -y
 sudo npm install -g corepack -y
 corepack enable
-corepack prepare yarn@stable --activate --yes
-sudo yarn global add pm2
+corepack prepare yarn@stable --activate
+sudo npm install -g pm2
+
